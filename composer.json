@@ -1,0 +1,26 @@
+{
+    "name": "subsider/chuck-norris-jokes",
+    "description": "Create random Chuck Norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Cruz San Román",
+            "email": "ccsanroman@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subsider\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Subsider\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    }
+}
