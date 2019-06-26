@@ -15,6 +15,7 @@ class JokeFactory
 
     /**
      * JokeFactory constructor.
+     *
      * @param Client|null $client
      */
     public function __construct(Client $client = null)
