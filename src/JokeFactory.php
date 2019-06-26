@@ -16,6 +16,7 @@ class JokeFactory
 
     /**
      * JokeFactory constructor.
+     *
      * @param array $jokes
      */
     public function __construct(array $jokes = null)
